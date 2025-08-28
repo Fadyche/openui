@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>دورات متخصصة لوزارات المالية في الدول العربية (خاصة الخليج) – CINPAA</title>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+<style>
+/* General */
+body{
+  font-family:'Tajawal',sans-serif;
+  margin:0;
+  background:linear-gradient(135deg,#0A3D62,#1e3a8a);
+  color:#fff;
+}
+a{color:#FBBF24;text-decoration:none;}
+a:hover{color:#ffd24d;}
+a:focus,button:focus,input:focus{outline:2px solid #FBBF24;outline-offset:2px;}
+/* HEADER/BRAND */
+.header{display:flex;justify-content:space-between;align-items:center;padding:1rem 2rem;}
+.logo{font-weight:700;font-size:1.25rem;}
+.header-btn{background:#FBBF24;color:#0A3D62;padding:0.5rem 1rem;border-radius:0.375rem;}
+/* HERO */
+.hero{text-align:center;padding:2rem 1rem;max-width:900px;margin:auto;}
+.badges span{background:#FBBF24;color:#0A3D62;margin:0.25rem;padding:0.25rem 0.5rem;border-radius:0.25rem;display:inline-block;}
+.hero .cities,.hero .note{margin-top:1rem;color:#FBBF24;}
+/* FEATURES */
+.features{display:flex;flex-wrap:wrap;gap:1rem;justify-content:center;padding:2rem 1rem;}
+.feature-card{background:#1e3a8a;padding:1rem;border-radius:0.5rem;max-width:300px;text-align:center;transition:box-shadow .3s;}
+.feature-card:hover{box-shadow:0 4px 10px rgba(0,0,0,0.3);}
+.feature-card .icon{width:40px;height:40px;margin-bottom:0.5rem;}
+.feature-card h3{color:#FBBF24;margin:0.5rem 0;}
+/* TOOLBAR */
+.toolbar{position:sticky;top:0;z-index:100;background:rgba(10,61,98,0.95);padding:0.5rem;display:flex;flex-wrap:wrap;gap:0.5rem;align-items:center;}
+.toolbar .categories{display:flex;gap:0.5rem;overflow-x:auto;padding-bottom:0.25rem;}
+.toolbar button{background:#1e3a8a;color:#fff;border:none;border-radius:9999px;padding:0.4rem 0.75rem;display:flex;align-items:center;gap:0.25rem;cursor:pointer;white-space:nowrap;}
+.toolbar button.active,.toolbar button:hover{background:#FBBF24;color:#0A3D62;}
+.toolbar input{padding:0.4rem;border-radius:0.25rem;border:none;}
+.toolbar #reset{background:#6b7280;}
+.toolbar #reset:hover{background:#FBBF24;color:#0A3D62;}
+.toolbar #counter{margin-right:auto;}
+.icon{width:1em;height:1em;fill:currentColor;}
+/* GRID TABLES */
+main section{padding:2rem 1rem;}
+h2{color:#FBBF24;display:flex;align-items:center;gap:0.5rem;margin-bottom:0.5rem;}
+.category-table{width:100%;border-collapse:collapse;}
+.category-table th,.category-table td{border:1px solid #6b7280;padding:0.5rem;background:#1e3a8a;text-align:start;}
+.category-table th{background:#0A3D62;color:#FBBF24;}
+.category-table .en{color:#6b7280;font-size:0.875rem;}
+.chip{background:#FBBF24;color:#0A3D62;padding:0.125rem 0.5rem;border-radius:9999px;margin-left:0.25rem;font-size:0.75rem;display:inline-block;}
+.category-table a.btn{background:#FBBF24;color:#0A3D62;padding:0.25rem 0.75rem;border-radius:0.25rem;display:inline-block;}
+.category-table a.btn:hover{background:#ffd24d;}
+/* ACCREDITATION */
+.accreditation{background:#0A3D62;padding:2rem 1rem;text-align:center;}
+/* FOOTER */
+.footer{background:#0A3D62;padding:1rem;text-align:center;}
+/* Back to top */
+#topBtn{position:fixed;bottom:1rem;left:1rem;width:40px;height:40px;border:none;border-radius:50%;background:#FBBF24;color:#0A3D62;display:none;cursor:pointer;}
+#topBtn.show{display:block;}
+@media(max-width:600px){
+  .features{flex-direction:column;align-items:center;}
+  .feature-card{width:100%;}
+}
+</style>
+</head>
+<body>
+<!-- HEADER/BRAND -->
+<header class="header">
+  <div class="logo">CINPAA</div>
+  <a href="https://www.cinpaa.org/التسجيل/" class="header-btn">التسجيل الموحّد</a>
+</header>
+<!-- HERO -->
+<section class="hero">
+  <h1>دورات متخصصة لوزارات المالية في الدول العربية (خاصة الخليج)</h1>
+  <p>برامج تنفيذية مدتها 5 أيام (3–4 ساعات يوميًا) تُنفّذ خارج الدولة المضيفة. نُمكِّن وزارات المالية من تبنّي الذكاء الاصطناعي وRegTech/SupTech والتحليلات التنبؤية ومكافحة الاحتيال والأمن السيبراني. يمكن تصميم دورات وفق الاحتياج المؤسسي لكل جهة.</p>
+  <div class="badges"><span>5 أيام</span><span>AI للمالية العامة</span><span>مختبرات عملية</span><span>شهادة أوروبية</span></div>
+  <p class="cities">تعقد الدورات في جميع المدن وفق الطلب، وبشكل دائم في مدريد وبرشلونة ولندن. مدن إضافية: لندن، مانشستر، إسطنبول، باريس، روما، فرانكفورت، ميونخ، جنيف، زيوريخ، موسكو، سراييفو، فيينا، مدريد، برشلونة.</p>
+  <p class="note">يمكن تصميم دورات وفق الاحتياج المؤسسي</p>
+</section>
+<!-- FEATURES -->
+<section class="features" aria-label="لماذا سينبا">
+  <div class="feature-card">
+    <svg class="icon"><use href="#ico-design"></use></svg>
+    <h3>تصميم تنفيذي قابل للتخصيص</h3>
+    <p>مواءمة كاملة مع مستويات: قيادات، مديرون، رؤساء أقسام، موظفون تنفيذيون.</p>
+  </div>
+  <div class="feature-card">
+    <svg class="icon"><use href="#ico-labs"></use></svg>
+    <h3>مختبرات وأدوات متقدمة</h3>
+    <p>RPA، Graph AI، NLP، SOAR، نماذج DL للتنبؤات الماكروفيسكلية.</p>
+  </div>
+  <div class="feature-card">
+    <svg class="icon"><use href="#ico-impact"></use></svg>
+    <h3>تأثير مؤسسي ملموس</h3>
+    <p>خفض زمن المعاملات، رفع دقة التنبؤات، تحسين الامتثال والشفافية.</p>
+  </div>
+</section>
+<!-- TOOLBAR -->
+<div class="toolbar" aria-label="شريط الأدوات">
+  <div class="categories" aria-label="التخصصات"></div>
+  <input type="search" id="search" placeholder="ابحث عن دورة" aria-label="بحث الدورات">
+  <button id="reset" aria-label="إعادة ضبط">إعادة ضبط</button>
+  <span id="counter" aria-label="عدد الدورات المرئية">0/0</span>
+</div>
+<!-- GRID (tables) -->
+<main id="courses" aria-label="قائمة الدورات"></main>
+<!-- ACCREDITATION -->
+<section class="accreditation" aria-label="الاعتماد">
+  <p>يحصل المشارك بعد اجتيازه البرنامج بنجاح على شهادة أوروبية معتمدة صادرة عن مركز CINPAA – سينبا للتدريب الدولي، وهو معهد تدريب دولي معتمد ومسجل رسميًا في الاتحاد الأوروبي وإسبانيا والمملكة المتحدة. كما تُعتمد هذه الشهادة من شركائنا الأكاديميين: جامعة كاميّلو خوسيه ثيلا (Camilo José Cela University) والمعهد العالي للقانون والأعمال في إسبانيا (ISDE – Law & Business School). وتُحمل الشهادة توقيع الخبير والمدرب الدولي.</p>
+</section>
+<!-- FOOTER -->
+<footer class="footer">
+  <p>© 2024 CINPAA – جميع الحقوق محفوظة. <a href="https://www.cinpaa.org/التسجيل/">التسجيل الموحّد</a></p>
+</footer>
+<!-- Back to top -->
+<button id="topBtn" aria-label="العودة للأعلى">▲</button>
+<!-- ICON SPRITE -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+  <symbol id="ico-design" viewBox="0 0 24 24"><path d="M3 9h4V5h4v4h4V5h4v4h2v4h-2v4h-4v-4h-4v4H7v-4H3z"/></symbol>
+  <symbol id="ico-labs" viewBox="0 0 24 24"><path d="M9 3v5l-5 8c0 3 3 5 8 5s8-2 8-5l-5-8V3z"/></symbol>
+  <symbol id="ico-impact" viewBox="0 0 24 24"><path d="M3 17h18v4H3zM12 3l6 10h-4v4h-4v-4H6z"/></symbol>
+  <symbol id="ico-budget" viewBox="0 0 24 24"><path d="M4 3h16v4H4zM4 10h16v4H4zM4 17h16v4H4z"/></symbol>
+  <symbol id="ico-tax" viewBox="0 0 24 24"><path d="M6 3h12v18l-3-2-3 2-3-2-3 2z"/></symbol>
+  <symbol id="ico-treasury" viewBox="0 0 24 24"><path d="M12 3l9 5v2H3V8zM4 11h16v9H4z"/></symbol>
+  <symbol id="ico-proc" viewBox="0 0 24 24"><path d="M3 12h5l4-4 4 4h5v5H3z"/></symbol>
+  <symbol id="ico-audit" viewBox="0 0 24 24"><path d="M4 4h16v16H4zM8 8h8M8 12h5M8 16h6"/></symbol>
+  <symbol id="ico-pay" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 9h18"/></symbol>
+  <symbol id="ico-gov" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12"/><path d="M8 20h8"/></symbol>
+  <symbol id="ico-cyber" viewBox="0 0 24 24"><path d="M12 3l8 4v5c0 5-3.5 9.4-8 10-4.5-.6-8-5-8-10V7z"/></symbol>
+  <symbol id="ico-hr" viewBox="0 0 24 24"><circle cx="8" cy="10" r="3"/><circle cx="16" cy="10" r="3"/><path d="M2 21a5 5 0 0 1 5-5h2a5 5 0 0 1 5 5M14 21a5 5 0 0 1 5-5h2a5 5 0 0 1 5 5"/></symbol>
+  <symbol id="ico-legal" viewBox="0 0 24 24"><path d="M12 3v18M4 7h16M6 7l3 7H3zm12 0l3 7h-6z"/></symbol>
+  <symbol id="ico-admin" viewBox="0 0 24 24"><path d="M3 21h18V8L12 3 3 8zM9 21v-6h6v6"/></symbol>
+  <symbol id="ico-esg" viewBox="0 0 24 24"><path d="M12 3C7 3 3 7 3 12s4 9 9 9 9-4 9-9h-9V3z"/></symbol>
+</svg>
+<!-- SCRIPT -->
+<script>
+const CATEGORIES=[
+  {name:"الميزانية والماكروفيسكل",slug:"budget",icon:"ico-budget"},
+  {name:"الإيرادات والضرائب (RegTech/SupTech)",slug:"tax",icon:"ico-tax"},
+  {name:"الخزانة والسيولة والدين العام",slug:"treasury",icon:"ico-treasury"},
+  {name:"المشتريات ومكافحة الاحتيال",slug:"procurement",icon:"ico-proc"},
+  {name:"التدقيق الداخلي والرقابة",slug:"audit",icon:"ico-audit"},
+  {name:"المدفوعات الحكومية وCBDC",slug:"payments",icon:"ico-pay"},
+  {name:"الحكومة الرقمية والبيانات المفتوحة",slug:"govtech",icon:"ico-gov"},
+  {name:"الأمن السيبراني المالي",slug:"cyber",icon:"ico-cyber"},
+  {name:"الموارد البشرية المالية",slug:"hr",icon:"ico-hr"},
+  {name:"الشؤون القانونية والعقود الحكومية",slug:"legal",icon:"ico-legal"},
+  {name:"الإدارة العامة والحوكمة",slug:"admin",icon:"ico-admin"},
+  {name:"ESG والمخاطر المناخية",slug:"esg",icon:"ico-esg"}
+];
+const COURSES=[
+  {category:"budget",ar:"حوكمة الميزانية المدعومة بالذكاء الاصطناعي: من الإنذار المبكر إلى الاعتماد",en:"AI-Driven Budget Governance: Early-Warning to Appropriation"},
+  {category:"budget",ar:"تحليلات ماكروفيسكل تنبؤية باستخدام التعلّم الآلي",en:"Predictive Macrofiscal Analytics with Machine Learning"},
+  {category:"budget",ar:"ميزانية قائمة على السيناريوهات: محاكاة متعددة بالذكاء الاصطناعي",en:"Scenario-Based Budgeting with AI Multi-Simulation"},
+  {category:"budget",ar:"نماذج الآن-كاست الشهرية للإيرادات والنفقات الحكومية",en:"Monthly Nowcasting Models for Revenues & Expenditures"},
+  {category:"budget",ar:"لوحات قيادة تنبؤية تربط الاقتصاد الكلي بالأداء المالي",en:"Predictive Dashboards: Linking Macro to Fiscal Performance"},
+  {category:"tax",ar:"RegTech & SupTech: بنية ذكية للامتثال الضريبي",en:"Smart Compliance Architecture for Tax (RegTech/SupTech)"},
+  {category:"tax",ar:"التعلّم العميق لتوقّع التحصيل الضريبي حسب الشرائح والقطاعات",en:"Deep Learning for Tax Take by Segments & Sectors"},
+  {category:"tax",ar:"مختبر المطالبات الضريبية المؤتمتة: RPA+AI لتقليص الدورة",en:"Automated Tax Claims Lab: RPA+AI to Cut Cycle Times"},
+  {category:"tax",ar:"مساعد ضريبي توليدي ثنائي اللغة لخدمة الجمهور",en:"Bilingual Generative Tax Assistant for Public Service"},
+  {category:"tax",ar:"تحليل سلوك المكلّفين بالذكاء الاصطناعي لاكتشاف المخاطر المبكرة",en:"AI Payer Behavior Analytics for Early-Risk Detection"},
+  {category:"treasury",ar:"إدارة الخزانة والسيولة الحكومية بالذكاء الاصطناعي",en:"AI-Powered Treasury & Liquidity for Government"},
+  {category:"treasury",ar:"إدارة الدين العام الذكية: تحسين محفظة الإصدار",en:"Smart Public Debt Management: Optimized Issuance"},
+  {category:"treasury",ar:"تنبؤات التدفقات النقدية اليومية باستخدام نماذج تسلسلية",en:"Daily Cash-Flow Forecasting with Sequence Models"},
+  {category:"treasury",ar:"نماذج إجهاد لخدمة الدين: محاكاة أسعار الفائدة والصرف",en:"Debt-Service Stress Testing: Rates/FX Simulation"},
+  {category:"treasury",ar:"استراتيجيات التحوّط السيادي القائمة على البيانات",en:"Data-Driven Sovereign Hedging Strategies"},
+  {category:"procurement",ar:"مختبر المشتريات الحكومية الذكية: ترجيح الموردين بالذكاء الاصطناعي",en:"Smart Government Procurement Lab: AI Supplier Scoring"},
+  {category:"procurement",ar:"كشف التلاعب والتواطؤ في المناقصات عبر Graph AI",en:"Bid-Rigging & Collusion Detection via Graph AI"},
+  {category:"procurement",ar:"منع الاحتيال المالي في الجهات الحكومية بنماذج الشذوذ",en:"Public Finance Fraud Prevention with Anomaly Models"},
+  {category:"procurement",ar:"أتمتة إجراءات الشراء منخفضة القيمة باستخدام RPA",en:"RPA for Low-Value Government Purchasing"},
+  {category:"procurement",ar:"تحليلات العقود من العطاء إلى الإغلاق بالذكاء الاصطناعي",en:"AI Contract Analytics: From Tender to Close-Out"},
+  {category:"audit",ar:"التدقيق الداخلي المعزّز بالذكاء التوليدي: من الخطة إلى التقرير",en:"Generative-AI Enhanced Internal Auditing: Plan-to-Report"},
+  {category:"audit",ar:"اختيار عينات قائم على المخاطر بخوارزميات التعلّم",en:"Risk-Based Sampling with Machine Learning"},
+  {category:"audit",ar:"NLP لمراجعة العقود والمذكرات المالية تلقائياً",en:"NLP for Automated Review of Contracts & Fiscal Memos"},
+  {category:"audit",ar:"لوحات مراقبة رقابية لحظية عبر اكتشاف الشذوذ",en:"Real-Time Oversight Dashboards via Anomaly Detection"},
+  {category:"audit",ar:"تحليل جذور المشكلات الرقابية باستخدام Graph AI",en:"Root-Cause Analytics for Oversight with Graph AI"},
+  {category:"payments",ar:"حوكمة المدفوعات الحكومية عبر عملات البنوك المركزية الرقمية (CBDC)",en:"CBDC & AI for Government Payments Governance"},
+  {category:"payments",ar:"تحقّق آلي للمعاملات الحكومية باستخدام التعلّم الآلي",en:"Machine-Learning Based Government Transaction Verification"},
+  {category:"payments",ar:"تكامل أنظمة التحصيل مع محافظ رقمية حكومية آمنة",en:"Secure Integration of Collections with Government e-Wallets"},
+  {category:"payments",ar:"كشف محاولات الاحتيال في المدفوعات الآنية عبر Graph AI",en:"Instant Payments Fraud Detection using Graph AI"},
+  {category:"payments",ar:"تصميم بوابات دفع حكومية صديقة للمستخدم بالذكاء الاصطناعي",en:"AI-Designed User-Centric Government Payment Portals"},
+  {category:"govtech",ar:"منصات بيانات مفتوحة للمالية العامة مدعومة بالذكاء الاصطناعي",en:"AI-Powered Open Data Platforms for Public Finance"},
+  {category:"govtech",ar:"هندسة بيانات مالية حكومية قابلة للتوسع",en:"Scalable Government Fiscal Data Engineering"},
+  {category:"govtech",ar:"مساعدات محادثية للمواطنين للاستعلامات المالية الحكومية",en:"Conversational Assistants for Citizen Fiscal Services"},
+  {category:"govtech",ar:"توحيد البيانات المالية متعددة المصادر باستخدام نماذج سياقية",en:"Contextual Models for Multi-Source Fiscal Data Unification"},
+  {category:"govtech",ar:"مصانع بيانات حكومية لأتمتة تقارير الأداء",en:"Government Data Factory for Automated Performance Reporting"},
+  {category:"cyber",ar:"حوكمة الأمن السيبراني المالي بالذكاء الاصطناعي",en:"AI-Enabled Cyber Governance for Public Finance"},
+  {category:"cyber",ar:"اكتشاف التهديدات وتنسيق الاستجابة (SOAR+AI)",en:"Financial Threat Detection & SOAR with AI"},
+  {category:"cyber",ar:"اختبار اختراق موجّه بالذكاء الاصطناعي لبيئات المالية الحكومية",en:"AI-Guided Pen-Testing for Public Finance Environments"},
+  {category:"cyber",ar:"بصمات سلوكية لحسابات حساسة لمنع التسرب الداخلي",en:"Behavioral Fingerprinting to Prevent Insider Leaks"},
+  {category:"cyber",ar:"تحليلات مخاطر الطرف الثالث لمزوّدي حلول المالية الحكومية",en:"Third-Party Risk Analytics for Gov-Finance Vendors"},
+  {category:"hr",ar:"تحليلات رأس المال البشري المالي: تخطيط قوى عاملة تنبؤي",en:"Financial HCM Analytics: Predictive Workforce Planning"},
+  {category:"hr",ar:"التنبؤ بالسلوك الوظيفي والمخاطر التأديبية بالذكاء الاصطناعي",en:"AI for Workforce Behavior & Disciplinary Risk"},
+  {category:"hr",ar:"اختيار وتهيئة موظفين للأدوار المالية باستخدام الأتمتة الذكية",en:"Automated Selection & Onboarding for Finance Roles"},
+  {category:"hr",ar:"لوحات قيادة أداء للموظفين الماليين مدفوعة بالذكاء الاصطناعي",en:"AI-Driven Performance Dashboards for Finance Staff"},
+  {category:"hr",ar:"تخطيط التعاقب الوظيفي للمهام الحرجة باستخدام النمذجة التنبؤية",en:"Predictive Succession Planning for Critical Finance Roles"},
+  {category:"legal",ar:"الذكاء الاصطناعي والتحكيم المالي والإداري للدولة",en:"AI in Public Financial & Administrative Arbitration"},
+  {category:"legal",ar:"حوكمة العقود الحكومية عبر خوارزميات كشف المخاطر",en:"AI-Powered Public Contract Governance"},
+  {category:"legal",ar:"التنبؤ بمخرجات الدعاوى الإدارية باستخدام معالجة اللغة",en:"Predicting Administrative Case Outcomes with NLP"},
+  {category:"legal",ar:"إدارة المعرفة القانونية بالذكاء الاصطناعي (أرشفة واسترجاع ذكي)",en:"AI-Driven Legal Knowledge Management (Smart Archiving & Retrieval)"},
+  {category:"legal",ar:"كشف التعارضات وبنود المخاطر في العقود تلقائياً",en:"Automated Risk & Conflict Clause Detection in Public Contracts"},
+  {category:"admin",ar:"لوحات قيادة تنبؤية للقيادة تربط الاقتصاد الكلي بالأداء المالي",en:"Predictive Dashboards for Leadership: Macro-Fiscal Linkage"},
+  {category:"admin",ar:"التفاوض الحكومي الذكي: دعم قرار قائم على البيانات",en:"AI-Enhanced Government Negotiations: Data-Driven Support"},
+  {category:"admin",ar:"إدارة خدمات حكومية قائمة على التنبؤ بالطلب",en:"Predictive Demand Management for Public Services"},
+  {category:"admin",ar:"إدارة المشاريع الحكومية بالذكاء الاصطناعي (PMO الذكي)",en:"AI for Government Project Management (Smart PMO)"},
+  {category:"admin",ar:"مؤشرات النزاهة والشفافية المدفوعة بالذكاء الاصطناعي",en:"AI-Driven Integrity & Transparency Indicators"},
+  {category:"esg",ar:"حوكمة المخاطر المالية المناخية (ESG) بالذكاء الاصطناعي",en:"AI for ESG-Linked Fiscal Risk Governance"},
+  {category:"esg",ar:"تحليل بيانات مناخية-مالية وبناء نماذج مخاطر سيادية",en:"Climate-Fiscal Data Analysis & Sovereign Risk Modeling"},
+  {category:"esg",ar:"تقارير ESG المالية للحكومة مدفوعة بالذكاء الاصطناعي",en:"AI-Driven ESG Reporting for Government"},
+  {category:"esg",ar:"قياس البصمة الكربونية لبرامج الإنفاق العام باستخدام الذكاء الاصطناعي",en:"AI Measurement of Carbon Footprint for Public Spending Programs"},
+  {category:"esg",ar:"محاكاة سيناريوهات التحول الأخضر وتأثيرها المالي",en:"Green Transition Scenario Simulation & Fiscal Impact"}
+];
+
+const nav=document.querySelector('.categories');
+const coursesContainer=document.getElementById('courses');
+
+function buildTables(){
+  CATEGORIES.forEach(cat=>{
+    const btn=document.createElement('button');
+    btn.dataset.cat=cat.slug;
+    btn.innerHTML=`<svg class="icon"><use href="#${cat.icon}"></use></svg>${cat.name}`;
+    nav.appendChild(btn);
+    btn.addEventListener('click',()=>{
+      document.querySelectorAll('.toolbar button').forEach(b=>b.classList.remove('active'));
+      btn.classList.add('active');
+      activeCategory=cat.slug;
+      filterCourses();
+    });
+
+    const section=document.createElement('section');
+    section.id=cat.slug;
+    section.innerHTML=`<h2><svg class="icon"><use href="#${cat.icon}"></use></svg>${cat.name}</h2>`;
+    const table=document.createElement('table');
+    table.className='category-table';
+    table.innerHTML='<thead><tr><th>#</th><th>اسم الدورة</th><th>معلومات</th></tr></thead><tbody></tbody>';
+    const tbody=table.querySelector('tbody');
+
+    COURSES.filter(c=>c.category===cat.slug).forEach((c,i)=>{
+      const tr=document.createElement('tr');
+      tr.dataset.category=cat.slug;
+      tr.dataset.title=(c.ar+" "+c.en).toLowerCase();
+      tr.innerHTML=`<td>${i+1}</td>
+      <td><strong>${c.ar}</strong><br><span class="en">${c.en}</span></td>
+      <td><span class="chip">5 أيام</span><span class="chip">مدريد/برشلونة/لندن</span><span class="chip">AR + EN</span> <a class="btn" href="https://www.cinpaa.org/التسجيل/">سجّل اهتمامك</a></td>`;
+      tbody.appendChild(tr);
+    });
+
+    section.appendChild(table);
+    coursesContainer.appendChild(section);
+  });
+
+  // Add "all" pill
+  const allBtn=document.createElement('button');
+  allBtn.dataset.cat='all';
+  allBtn.textContent='الكل';
+  allBtn.classList.add('active');
+  nav.prepend(allBtn);
+  allBtn.addEventListener('click',()=>{
+    document.querySelectorAll('.toolbar button').forEach(b=>b.classList.remove('active'));
+    allBtn.classList.add('active');
+    activeCategory='all';
+    filterCourses();
+  });
+}
+
+let activeCategory='all';
+buildTables();
+
+const searchInput=document.getElementById('search');
+const resetBtn=document.getElementById('reset');
+const counter=document.getElementById('counter');
+
+function filterCourses(){
+  const query=searchInput.value.trim().toLowerCase();
+  const rows=document.querySelectorAll('#courses tbody tr');
+  let visible=0;
+  rows.forEach(row=>{
+    const matchCat=activeCategory==='all' || row.dataset.category===activeCategory;
+    const matchSearch=row.dataset.title.includes(query);
+    if(matchCat && matchSearch){
+      row.style.display='';
+      visible++;
+    }else{
+      row.style.display='none';
+    }
+  });
+  document.querySelectorAll('#courses section').forEach(sec=>{
+    const hasVisible=sec.querySelector('tbody tr:not([style*="display: none"])');
+    sec.style.display=hasVisible?'':'none';
+  });
+  counter.textContent=`${visible} / ${rows.length}`;
+}
+
+searchInput.addEventListener('input',filterCourses);
+resetBtn.addEventListener('click',()=>{
+  searchInput.value='';
+  activeCategory='all';
+  document.querySelectorAll('.toolbar button').forEach(b=>b.classList.remove('active'));
+  document.querySelector('.toolbar button[data-cat="all"]').classList.add('active');
+  filterCourses();
+  window.scrollTo({top:0,behavior:'smooth'});
+});
+
+filterCourses();
+
+// back to top
+const topBtn=document.getElementById('topBtn');
+window.addEventListener('scroll',()=>{
+  if(window.scrollY>300) topBtn.classList.add('show'); else topBtn.classList.remove('show');
+});
+topBtn.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+</script>
+</body>
+</html>
